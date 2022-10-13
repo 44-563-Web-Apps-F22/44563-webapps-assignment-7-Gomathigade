@@ -4,7 +4,7 @@
 <head>
     <title>Treasure Page</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, onclick="check(0)" initial- onclick="check(0)"scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -58,44 +58,28 @@
 
     </div>
 
+    <div  class="container-fluid">
+        <button onclick="reset()" class="btn btn-info">Reset</button><br><br>
+    </div>
+    
     <div class="container-fluid">
 
         <div class="container container-padding">
             <div class="row">
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic1" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(0)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic2" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(1)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic3" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(2)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic4" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(3)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-            </div>
-        </div>
-
-        <div class="container container-padding">
-            <div class="row">
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic5" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(4)">
                 </div>
             </div>
         </div>
@@ -103,39 +87,19 @@
         <div class="container container-padding">
             <div class="row">
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic6" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(5)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic7" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(6)">
                 </div>
                 <div class="col">
-                    <img class="image" src="Help.jpg" alt="HELP!"  height="100px" width="100px">
+                    <img id="pic8" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(7)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic9" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(8)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-            </div>
-        </div>
-
-        <div class="container container-padding">
-            <div class="row">
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
-                </div>
-                <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic10" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(9)">
                 </div>
             </div>
         </div>
@@ -143,19 +107,59 @@
         <div class="container container-padding">
             <div class="row">
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic11" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(10)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic12" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(11)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic13" class="image" src="Help.jpg" alt="HELP!"  height="100px" width="100px" onclick="Help()">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic14" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(13)">
                 </div>
                 <div class="col">
-                    <img class="image" src="closedchest.png" alt="Map"  height="100px" width="100px">
+                    <img id="pic15" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(14)">
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-padding">
+            <div class="row">
+                <div class="col">
+                    <img id="pic16" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(15)">
+                </div>
+                <div class="col">
+                    <img id="pic17" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(16)">
+                </div>
+                <div class="col">
+                    <img id="pic18" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(17)">
+                </div>
+                <div class="col">
+                    <img id="pic19" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(18)">
+                </div>
+                <div class="col">
+                    <img id="pic20" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(19)">
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-padding">
+            <div class="row">
+                <div class="col">
+                    <img id="pic21" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(20)">
+                </div>
+                <div class="col">
+                    <img id="pic122" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(21)">
+                </div>
+                <div class="col">
+                    <img id="pic23" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(22)">
+                </div>
+                <div class="col">
+                    <img id="pic24" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(23)">
+                </div>
+                <div class="col">
+                    <img id="pic25" class="image" src="closedchest.png" alt="Map"  height="100px" width="100px" onclick="check(24)">
                 </div>
             </div>
         </div>
@@ -163,10 +167,85 @@
 
 
     </div>
-
-    
-
-
 </body>
+<script>
+var ids = ["pic1", "pic2", "pic3", "pic4", "pic5", "pic6", "pic7", "pic8", "pic9", "pic10", "pic11", "pic12", "pic13", "pic14", "pic15", "pic16", "pic17", "pic18", "pic19", "pic20", "pic21", "pic22", "pic23", "pic24", "pic25"]
+var chestCount = 0
+var score = 0
+var lastCheck = 12
+var treasureLocation = generateRandom(0,24)
+
+function check(position) {
+
+    if (position == treasureLocation) {
+        document.getElementById(ids[position]).setAttribute("src", "openchest.png")
+        score++
+    } else {
+        document.getElementById(ids[position]).setAttribute("src", "sadface.png")
+    }
+    chestCount++
+    lastCheck = position
+    document.getElementById("chests").innerText = "Number of chests checked is "+chestCount+"."
+    document.getElementById("score").innerText = "Score is "+score+"."
+
+    lastCheck = position
+}
+
+function Help() {
+    let lastRow = parseInt((lastCheck/5), 10)
+    let treasureRow = parseInt((treasureLocation/5), 10)
+    let result = ""
+
+    lastCol = lastCheck%5
+    treasureCol = treasureLocation%5
+
+    console.log(lastCol)
+    console.log(lastRow)
+    console.log(treasureCol)
+    console.log(treasureRow)
+
+    if (lastRow == treasureRow && lastCheck != treasureLocation) {
+        if (lastCheck < treasureLocation) {
+            result = "Right!"
+        } else {
+            result = "Left!"
+        }
+    } else if (lastCol == treasureCol && lastCheck != treasureLocation) {
+        if (lastCheck < treasureLocation) {
+            result = "Bottom!"
+        } else {
+            result = "Up!"
+        }
+    } else {
+        result = "Sorry!, no help available!!"
+    }
+
+    score = score+2
+    document.getElementById("score").innerText = "Score is "+score+"."
+    document.getElementById("help").innerText = result
+
+}
+
+function generateRandom(min, max) {
+        var num = Math.floor(Math.random() * (max - min + 1)) + min;
+        return (num === 12) ? generateRandom(min, max) : num;
+    }
+
+    function reset() {
+
+
+        chestCount = 0
+        score = 0
+        treasureLocation = generateRandom(0,24)
+
+        console.log(treasureLocation)
+
+        document.getElementById("chests").innerText = "Number of chests checked is zero."
+        document.getElementById("score").innerText = "Score is unknown."
+        document.getElementById("help").innerText = "Help report."
+
+    }
+</script>
+
 
 </html>
